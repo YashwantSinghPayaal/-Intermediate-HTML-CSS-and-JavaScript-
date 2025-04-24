@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta Charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Responsive Form & Todo App</title>
+        <link rel="stylesheet" href="stylea.css" />
+    </head>
+    <body>
+        <nav>
+            <div> Todo-List Website</div>
+            <div>
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+        <div class="container">
+            <form id="myForm">
+                <h2>Contact Us</h2>
+                <input type="text" id="name" placeholder="Your Name" required />
+                <input type="email" id="email" placeholder="Your Email" required />
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="todo">
+                <h2>Todo-List</h2>
+                <input type="text" id="taskInput" placeholder="New task..." />
+                <div id="taskList"></div>
+            </div>
+        </div>
+        <script src="scripta.js"></script>
+    </body>
+</html>
